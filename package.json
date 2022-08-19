@@ -16,7 +16,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "NODE_OPTIONS=--openssl-legacy-providestart-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
