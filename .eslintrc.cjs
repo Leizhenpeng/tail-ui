@@ -28,4 +28,8 @@ module.exports = {
   extends: [ // then, enable whichever type-aware rules you want to use
     'eslint:recommended',
   ],
+  env: {
+    "browser": true,
+    "node": true
+}
 };
